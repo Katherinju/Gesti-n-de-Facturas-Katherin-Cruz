@@ -177,3 +177,4 @@ C:\Users\kathe\source\repos\ExpoCredit\ExpoCredit\obj\Debug\net8.0\ExpoCredit.ge
 C:\Users\kathe\source\repos\ExpoCredit\ExpoCredit\obj\Debug\net8.0\ref\ExpoCredit.dll
 C:\Users\kathe\source\repos\ExpoCredit\ExpoCredit\bin\Debug\net8.0\libman.json
 C:\Users\kathe\source\repos\ExpoCredit\ExpoCredit\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\kathe\source\repos\ExpoCredit\ExpoCredit\obj\Debug\net8.0\ExpoCredit.sourcelink.json

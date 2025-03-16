@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExpoCredit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b37fe7731c16d970c9c8d23facc1c31ca52277d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExpoCredit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExpoCredit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

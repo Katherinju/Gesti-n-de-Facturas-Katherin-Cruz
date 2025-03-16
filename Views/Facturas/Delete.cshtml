@@ -38,10 +38,12 @@
             </dl>
         </div>
     </div>
+    <form asp-action="DeleteConfirmed" method="post">
 
-    <form asp-action="Delete" class="mt-3">
-        <input type="hidden" asp-for="Id" />
+        @Html.AntiForgeryToken() <!-- Protección CSRF -->
+        <input type="hidden" name="id" value="@Model.Id" />
         <input type="submit" value="Eliminar" class="btn btn-danger" />
         <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
     </form>
+
 </div>

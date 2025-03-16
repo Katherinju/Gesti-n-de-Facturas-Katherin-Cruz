@@ -8,12 +8,14 @@
 <div class="container mt-4">
     <h1>Editar Factura</h1>
 
-    <form asp-action="Edit">
+    <form asp-action="Edit" asp-route-id="@Model.Id" method="post">
         <input type="hidden" asp-for="Id" />
+
         <div class="form-group">
-            <label asp-for="Numero" class="control-label">Número de Factura</label>
-            <input asp-for="Numero" class="form-control" />
-            <span asp-validation-for="Numero" class="text-danger"></span>
+            <label asp-for="NumeroFactura" class="control-label">Número de Factura</label>
+            <input type="text" name="NumeroFactura" value="@Model.NumeroFactura" class="form-control" />
+
+            <span asp-validation-for="NumeroFactura" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label asp-for="FechaVencimiento" class="control-label">Fecha de Vencimiento</label>

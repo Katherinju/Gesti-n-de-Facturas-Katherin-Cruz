@@ -16,6 +16,8 @@ namespace GestionFacturas.Models
         [Display(Name = "Fecha de Vencimiento")]
         public DateTime FechaVencimiento { get; set; }
 
+
+
         // Propiedad calculada para el estado de la factura
         [Display(Name = "Estado")]
         public string Estado
@@ -28,6 +30,12 @@ namespace GestionFacturas.Models
                     return "Próxima a vencer";
                 return "Vigente";
             }
+        }
+
+        // 🔹 Constructor para inicializar `NumeroFactura`
+        public Factura()
+        {
+            NumeroFactura = string.Empty; // O un valor predeterminado como "FACT-0001"
         }
     }
 }

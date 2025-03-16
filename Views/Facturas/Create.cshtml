@@ -2,17 +2,21 @@
 
 @{
     ViewData["Title"] = "Crear Nueva Factura";
+   
     Layout = "_Layout";
 }
 
 <div class="container mt-4">
     <h1>Crear Nueva Factura</h1>
 
-    <form asp-action="Create">
+    <form asp-action="Create" method="post">
+
+        @Html.AntiForgeryToken()
+
         <div class="form-group">
-            <label asp-for="Numero" class="control-label">Número de Factura</label>
-            <input asp-for="Numero" class="form-control" />
-            <span asp-validation-for="Numero" class="text-danger"></span>
+            <label asp-for="NumeroFactura" class="control-label">Número de Factura</label>
+            <input asp-for="NumeroFactura" name="NumeroFactura" class="form-control" required />
+            <span asp-validation-for="NumeroFactura" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label asp-for="FechaVencimiento" class="control-label">Fecha de Vencimiento</label>
