@@ -1,48 +1,51 @@
-📄 Gestión de Facturas
-¡Bienvenido al proyecto de Gestión de Facturas! 🚀 Este es un sistema desarrollado en ASP.NET Core que facilita la administración de facturas de manera eficiente.
+# 📄 Gestión de Facturas
 
-📌 Características
-✅ Crear, editar y eliminar facturas.
-✅ Gestionar clientes y productos.
-✅ Generar reportes de ventas.
-✅ Exportar facturas en formato PDF.
+¡Bienvenido al proyecto de **Gestión de Facturas**! 🚀 Este es un sistema desarrollado en **ASP.NET Core** que facilita la administración de facturas de manera eficiente.
 
-🛠 Tecnologías utilizadas
-🔹 Backend: ASP.NET Core
-🔹 Frontend: Razor Pages o MVC
-🔹 Base de datos: SQL Server
-🔹 ORM: Entity Framework
-🔹 Estilos: Bootstrap
+---
 
-⚙️ Requisitos previos
+## 📌 Características
+
+- ✅ Crear, editar y eliminar facturas.
+
+
+---
+
+## 🛠 Tecnologías utilizadas
+
+- 🔹 **Backend**: ASP.NET Core
+- 🔹 **Frontend**:  MVC
+- 🔹 **Base de datos**: SQL Server
+- 🔹 **ORM**: Entity Framework
+- 🔹 **Estilos**: Bootstrap
+
+---
+
+## ⚙️ Requisitos previos
+
 Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
-🔹 .NET SDK
-🔹 Visual Studio (opcional, pero recomendado)
-🔹 SQL Server
+- 🔹 [.NET SDK](https://dotnet.microsoft.com/download)
+- 🔹 [Visual Studio](https://visualstudio.microsoft.com/) (opcional, pero recomendado)
+- 🔹 [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads)
 
-🚀 Instalación y configuración
+---
+
+## 🚀 Instalación y configuración
+
 Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
-1️⃣ Clona el repositorio
-bash
+### 1️⃣ Clona el repositorio
+```bash
 git clone https://github.com/Katherinju/Gesti-n-de-Facturas-Katherin-Cruz.git
 
-2️⃣ Accede a la carpeta del proyecto
-bash
+### 2️⃣ Accede a la carpeta del proyecto
+```bash
 cd Gesti-n-de-Facturas-Katherin-Cruz
 
-3️⃣ Restaura las dependencias
-bash
-dotnet restore
-
-4️⃣ Configura la base de datos
-Abre el archivo appsettings.json y modifica la cadena de conexión para que coincida con tu entorno.
-
-5️⃣ Aplica las migraciones para crear la base de datos
-bash**
-dotnet ef database update
-
-6️⃣ Ejecuta el proyecto
-bash
+### 3️⃣ Ejecuta el proyecto
+```bash
 dotnet run
+
+![image](https://github.com/user-attachments/assets/e32827c8-c20a-4801-b67c-5337123a57e2)
+
