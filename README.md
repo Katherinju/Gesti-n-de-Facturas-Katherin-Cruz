@@ -1,38 +1,48 @@
-# Gestión de Facturas
+📄 Gestión de Facturas
+¡Bienvenido al proyecto de Gestión de Facturas! 🚀 Este es un sistema desarrollado en ASP.NET Core que facilita la administración de facturas de manera eficiente.
 
-¡Bienvenido al proyecto de **Gestión de Facturas**! Este es un sistema desarrollado en ASP.NET para gestionar facturas de manera eficiente.
+📌 Características
+✅ Crear, editar y eliminar facturas.
+✅ Gestionar clientes y productos.
+✅ Generar reportes de ventas.
+✅ Exportar facturas en formato PDF.
 
-## Descripción del proyecto
+🛠 Tecnologías utilizadas
+🔹 Backend: ASP.NET Core
+🔹 Frontend: Razor Pages o MVC
+🔹 Base de datos: SQL Server
+🔹 ORM: Entity Framework
+🔹 Estilos: Bootstrap
 
-Este proyecto permite:
-- Crear, editar y eliminar facturas.
-- Gestionar clientes y productos.
-- Generar reportes de ventas.
-- Exportar facturas en formato PDF.
+⚙️ Requisitos previos
+Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
-## Tecnologías utilizadas
+🔹 .NET SDK
+🔹 Visual Studio (opcional, pero recomendado)
+🔹 SQL Server
 
-- **Backend**: ASP.NET Core
-- **Frontend**: Razor Pages o MVC (dependiendo de tu proyecto)
-- **Base de datos**: SQL Server
-- **Otras herramientas**: Entity Framework, Bootstrap, etc.
+🚀 Instalación y configuración
+Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local:
 
-## Requisitos previos
+1️⃣ Clona el repositorio
+bash
+git clone https://github.com/Katherinju/Gesti-n-de-Facturas-Katherin-Cruz.git
 
-Antes de ejecutar el proyecto, asegúrate de tener instalado:
-- [.NET SDK](https://dotnet.microsoft.com/download) (versión X.X o superior)
-- [Visual Studio](https://visualstudio.microsoft.com/) (opcional, pero recomendado)
-- [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) o una base de datos compatible
+2️⃣ Accede a la carpeta del proyecto
+bash
+cd Gesti-n-de-Facturas-Katherin-Cruz
 
-## Instalación
+3️⃣ Restaura las dependencias
+bash
+dotnet restore
 
-Sigue estos pasos para configurar el proyecto en tu máquina local:
+4️⃣ Configura la base de datos
+Abre el archivo appsettings.json y modifica la cadena de conexión para que coincida con tu entorno.
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/Katherinju/Gesti-n-de-Facturas-Katherin-Cruz.git
-2. Navega a la carpeta del proyecto:
-```bash
+5️⃣ Aplica las migraciones para crear la base de datos
+bash**
+dotnet ef database update
 
-
-
+6️⃣ Ejecuta el proyecto
+bash
+dotnet run
